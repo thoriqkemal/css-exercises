@@ -9,10 +9,24 @@
   background-color: #5995DA;
   /* blue */
   padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .menu {
   border: 1px solid #fff;
   /* for debugging */
   width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
 }
